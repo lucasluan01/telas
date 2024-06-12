@@ -42,7 +42,7 @@ img {
 
 .c-text {
   color: #fff;
-  font-size: 3.375rem;
+  font-size: clamp(qrem, 2vw, 3.375rem);
   font-weight: 500;
   text-wrap: balance;
 }
@@ -78,5 +78,6 @@ img {
   }
   .c-container {
     padding: 20px;
+    border-radius: 20px;
   }
 }
