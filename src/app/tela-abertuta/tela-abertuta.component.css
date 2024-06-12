@@ -7,6 +7,8 @@
   overflow: hidden;
   background-color: #502253;
   padding: 50px;
+  font-family: "Shrikhand", serif;
+  font-style: normal;
 }
 
 img {
@@ -38,12 +40,32 @@ img {
 .c-text {
   color: #fff;
   font-size: 54px;
-  font-family: "Shrikhand", serif;
   font-weight: 500;
-  font-style: normal;
 }
 
 .c-logo {
   margin-bottom: 100px;
   max-width: 100%;
+}
+
+.c-button {
+  background-color: #d0d034;
+  color: #502253;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 10px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.c-button:hover {
+  background-color: #e8e89c;
+}
+
+.c-button__group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 50px;
 }
