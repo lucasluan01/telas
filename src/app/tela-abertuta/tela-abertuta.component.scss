@@ -1,0 +1,50 @@
+:host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #502253;
+    padding: 50px;
+}
+
+img {
+    max-height: 100%;
+}
+
+.c-container {
+    width: 100%;
+    height: 100%;
+    background-color: #924a97;
+    border-radius: 50px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &__left {
+        flex: 2;
+    }
+
+    &__right {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.c-text {
+    color: #fff;
+    font-size: 54px;
+
+    font-family: "Shrikhand", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.c-logo {
+    margin-bottom: 100px;
+    max-width: 100%;
+}	
