@@ -1,0 +1,144 @@
+:host {
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+.cs-img__pllis-alt {
+    max-width: 40%;
+}
+
+.cs-container {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+
+.cs-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    flex-wrap: wrap;
+
+    h2 {
+        max-width: 200px;
+        text-wrap: balance;
+        text-align: end;
+    }
+
+    .cs-text {
+        color: #000;
+    }
+}
+
+.cs-text {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.cs-strong {
+    font-weight: 700 !important;
+
+    &__caption {
+        font-size: .875rem;
+        font-weight: 900 !important;
+        text-wrap: balance;
+    }
+}
+
+.cs-title, .cs-subtitle {
+    font-family: "Shrikhand", serif;
+    font-style: normal;
+    text-wrap: balance;
+    line-height: 1;
+}
+
+.cs-subtitle {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #d0d034;
+}
+
+.cs-subtitle__white {
+    @extend .cs-subtitle;
+    color: #fff;
+}
+
+.cs-subtitle__pink {
+    @extend .cs-subtitle;
+    color: #924a97;
+}
+
+.cs-text {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    line-height: 1.5;
+    font-weight: 200;
+    color: #fff;
+
+    &__gap {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+}
+
+[class^="cs-section-"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 100px;
+}
+
+.cs-section-2 {
+    background-color: #502253;
+
+    .cs-container {
+        flex-direction: row;
+        align-items: center;
+        gap: 75px;
+        
+        flex-wrap: wrap;
+        & > * {
+            flex: 1 1 20%;
+        }
+    }
+}
+
+.cs-section-3 {
+    background-color: #d0d034;
+
+    .cs-container {
+        align-items: center;
+    }
+}
+
+.cs-section-4 {
+    background-color: #924a97;
+    
+    .cs-title {
+        font-size: 3rem;
+        font-weight: 500;
+        color: #d0d034;
+    }
+
+    .cs-subtitle {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cs-img__pllis-alt {
+        max-width: 60%;
+    }
+
+    [class^="cs-section-"] {
+        padding: 20px;
+    }
+}
