@@ -223,6 +223,7 @@ img {
     justify-items: stretch;
   }
   .cs-section-1 img {
+    padding: 20px;
     margin: 0 auto;
   }
   .cs-section-1 .cs-title {
