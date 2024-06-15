@@ -2,6 +2,36 @@ img {
   max-width: 100%;
 }
 
+button {
+  cursor: pointer;
+}
+
+.cs-acoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.cs-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #502253;
+  color: #fff;
+}
+
+.cs-header img {
+  max-height: 50px;
+}
+
+.cs-header button {
+  background-color: transparent;
+  border: 0;
+}
+
 .cs-img__pllis-alt {
   max-width: 40%;
 }
@@ -113,7 +143,6 @@ img {
   border-radius: 50px;
   border: 1px solid #fff;
   padding: 10px 25px;
-  cursor: pointer;
 }
 
 .cs-download:hover {

@@ -1,9 +1,35 @@
-:host {
-    
-}
-
 img {
     max-width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+.cs-acoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.cs-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #502253;
+    color: #fff;
+
+    img {
+        max-height: 50px;
+    }
+
+    button {
+        background-color: transparent;
+        border: 0;
+    }
 }
 
 .cs-img__pllis-alt {
@@ -119,7 +145,6 @@ img {
     border-radius: 50px;
     border: 1px solid #fff;
     padding: 10px 25px;
-    cursor: pointer;
 
     &:hover {
         background-color: #fff;
