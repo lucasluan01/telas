@@ -77,7 +77,7 @@ button, .cs-logo-home {
   text-wrap: balance;
 }
 
-.cs-title, .cs-subtitle, .cs-subtitle__white, .cs-subtitle__pink {
+.cs-title, .cs-subtitle, .cs-subtitle__white, .cs-subtitle__pink, .cs-button {
   font-family: "Shrikhand", serif;
   font-style: normal;
   text-wrap: balance;
@@ -118,6 +118,28 @@ button, .cs-logo-home {
   align-items: center;
   width: 100%;
   padding: 100px;
+}
+
+.cs-cadastrar-loja {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.cs-cadastrar-loja .cs-button {
+  background-color: #924a97;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 50px;
+  font-size: 2rem;
+  border: 0;
+  cursor: pointer;
+}
+
+.cs-cadastrar-loja .cs-button:hover {
+  background-color: #502253;
 }
 
 .cs-sidebar {
@@ -164,6 +186,10 @@ button, .cs-logo-home {
   font-weight: 600;
 }
 
+[class^="cs-subtitle"] {
+  line-height: 1.4;
+}
+
 .cs-section-1 {
   background-color: #d0d034;
   padding: 0;
@@ -176,7 +202,7 @@ button, .cs-logo-home {
 
 .cs-section-1 .cs-title {
   position: absolute;
-  font-size: clamp(2rem, 3vw, 3.375rem);
+  font-size: clamp(2rem, 5vw, 5rem);
   font-weight: 500;
   color: #fff;
   top: 25%;
@@ -225,18 +251,8 @@ button, .cs-logo-home {
   align-items: center;
 }
 
-.cs-section-4 {
-  background-color: #924a97;
-}
-
-.cs-section-4 .cs-title {
-  font-size: 3rem;
-  font-weight: 500;
-  color: #d0d034;
-}
-
-.cs-section-4 .cs-subtitle, .cs-section-4 .cs-subtitle__white, .cs-section-4 .cs-subtitle__pink {
-  font-size: 1.5rem;
+.cs-section-3 .cs-text {
+  font-size: 1rem;
 }
 
 @media screen and (max-width: 768px) {
