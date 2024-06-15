@@ -90,6 +90,87 @@ img {
   padding: 100px;
 }
 
+.cs-sidebar {
+  min-height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  max-width: 300px;
+  width: 100%;
+  background-color: #924a97;
+  padding: 20px;
+}
+
+.cs-download {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #fff;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+.cs-download:hover {
+  background-color: #fff;
+  color: #924a97;
+}
+
+.cs-download:hover svg {
+  fill: #924a97;
+}
+
+.cs-download__text {
+  font-size: .75rem;
+  font-weight: 500;
+}
+
+.cs-download__store {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.cs-section-1 {
+  background-color: #d0d034;
+  padding: 0;
+  justify-content: space-between;
+  align-items: stretch;
+  position: relative;
+}
+
+.cs-section-1 .cs-title {
+  position: absolute;
+  font-size: clamp(2rem, 3vw, 3.375rem);
+  font-weight: 500;
+  color: #fff;
+  top: 25%;
+  left: 8%;
+}
+
+.cs-section-1 .cs-title span {
+  background-color: #502253;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.cs-section-1 .cs-title p:nth-child(1) {
+  margin-left: 80px;
+}
+
+.cs-section-1 .cs-title p:nth-child(2) {
+  margin-left: 40px;
+}
+
+.cs-section-1 img {
+  max-width: 70%;
+  max-height: 100vh;
+}
+
 .cs-section-2 {
   background-color: #502253;
 }
@@ -133,5 +214,8 @@ img {
   }
   [class^="cs-section-"] {
     padding: 20px;
+  }
+  .cs-section-1 {
+    padding: 0;
   }
 }
