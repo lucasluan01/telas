@@ -228,6 +228,7 @@ img {
   .cs-section-1 .cs-title {
     position: relative;
     margin: 0 auto;
+    left: 0;
   }
   .cs-section-1 .cs-sidebar {
     width: 100%;
