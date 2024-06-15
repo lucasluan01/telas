@@ -247,3 +247,16 @@ img {
         }
     }
 }
+
+@media screen and (max-width: 1024px){
+    .cs-section-1 {
+        img {
+            margin-left: auto;
+        }
+
+        .cs-sidebar {
+            width: 100%;
+            min-width: 100%;
+        }
+    }
+}

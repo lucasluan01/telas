@@ -236,3 +236,13 @@ img {
     min-width: 100%;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .cs-section-1 img {
+    margin-left: auto;
+  }
+  .cs-section-1 .cs-sidebar {
+    width: 100%;
+    min-width: 100%;
+  }
+}
