@@ -141,6 +141,8 @@ img {
   justify-content: space-between;
   align-items: stretch;
   position: relative;
+  gap: 50px;
+  flex-wrap: wrap-reverse;
 }
 
 .cs-section-1 .cs-title {
@@ -217,5 +219,18 @@ img {
   }
   .cs-section-1 {
     padding: 0;
+    align-items: stretch;
+    justify-items: stretch;
+  }
+  .cs-section-1 img {
+    margin: 0 auto;
+  }
+  .cs-section-1 .cs-title {
+    position: relative;
+    margin: 0 auto;
+  }
+  .cs-section-1 .cs-sidebar {
+    width: 100%;
+    min-width: 100%;
   }
 }
