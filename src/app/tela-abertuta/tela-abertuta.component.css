@@ -52,7 +52,7 @@ a {
 }
 
 .c-button {
-  background-color: #e0cb28;
+  background-color: #d9ca3f;
   color: #502253;
   font-size: 1.5rem;
   font-weight: 500;
@@ -63,7 +63,7 @@ a {
 }
 
 .c-button:hover {
-  background-color: #f0e697;
+  background-color: #eee7a9;
 }
 
 .c-button__group {
