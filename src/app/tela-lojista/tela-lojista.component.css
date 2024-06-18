@@ -87,7 +87,7 @@ button, .cs-logo-home {
 .cs-subtitle, .cs-subtitle__white, .cs-subtitle__pink {
   font-size: 2rem;
   font-weight: 400;
-  color: #d0d034;
+  color: #e0cb28;
 }
 
 .cs-subtitle__white {
@@ -191,7 +191,7 @@ button, .cs-logo-home {
 }
 
 .cs-section-1 {
-  background-color: #d0d034;
+  background-color: #e0cb28;
   padding: 0;
   justify-content: space-between;
   align-items: stretch;
@@ -244,7 +244,7 @@ button, .cs-logo-home {
 }
 
 .cs-section-3 {
-  background-color: #d0d034;
+  background-color: #e0cb28;
 }
 
 .cs-section-3 .cs-container {

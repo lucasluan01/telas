@@ -52,7 +52,7 @@ a {
 }
 
 .c-button {
-    background-color: #d0d034;
+    background-color: #e0cb28;
     color: #502253;
     font-size: 1.5rem;
     font-weight: 500;
@@ -62,7 +62,7 @@ a {
     transition: background-color 0.3s;
 
     &:hover {
-        background-color: lighten(#d0d034, 25%);
+        background-color: lighten(#e0cb28, 25%);
     }
 
     &__group {
