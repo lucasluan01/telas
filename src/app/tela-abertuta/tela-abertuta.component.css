@@ -22,7 +22,7 @@ a {
   height: 100%;
   background-color: #924a97;
   border-radius: 50px;
-  padding: 50px 100px;
+  padding: 100px 150px;
   display: flex;
   flex-wrap: wrap;
   gap: 100px 50px;
@@ -52,6 +52,10 @@ a {
   line-height: 1;
 }
 
+.c-text__group {
+  max-width: 50%;
+}
+
 .c-button {
   background-color: #d9ca3f;
   color: #502253;
@@ -74,7 +78,7 @@ a {
 }
 
 .c-logo {
-  max-width: 50% !important;
+  max-width: 28% !important;
 }
 
 @media (max-width: 768px) {
