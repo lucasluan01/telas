@@ -5,14 +5,88 @@
     line-height: 1.75;
 }
 
-:host {
+img {
+    max-width: 100%;
+}
+
+button, .cs-logo-home {
+    cursor: pointer;
+}
+
+.cs-acoes {
     display: flex;
     justify-content: center;
-    padding: 50px;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.cs-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #502253;
+    color: #fff;
+
+    img {
+        max-height: 50px;
+    }
+
+    button {
+        background-color: transparent;
+        border: 0;
+    }
+}
+
+.cs-img__pllis-alt {
+    max-width: 40%;
+}
+
+.cs-container {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
 }
 
 p {
     margin: 0;
+}
+
+footer {
+    font-size: 14px;
+    padding: 10px;
+
+    p {
+        padding-bottom: 12px;
+    }
+
+    span {
+        text-align: center;
+    }
+}
+
+.cs-block {
+    display: block;
+    font-size: 12px;
+}
+
+.cs-terms {
+    text-align: center;
+
+    a {
+        font-weight: 600;
+        padding: 20px;
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+footer {
+    background-color: #a7499b;
+    color: #fff;
 }
 
 p:not(:last-child), ul, li:not(:last-child) , h1, h2 {
@@ -39,11 +113,13 @@ h1 {
 }
 
 .cs-container {
+    margin: 0 auto;
     max-width: 800px;
+    padding: 50px;
 }
 
 @media screen and (max-width: 768px) {
-    :host {
+    .cs-container {
         padding: 20px;
     }
     
